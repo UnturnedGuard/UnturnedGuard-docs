@@ -7,8 +7,11 @@ Its the most important option in the UnturnedGuard, the heart of the anticheat, 
 The ``GuardDatabaseStoreType`` - means the way how the things will be stored, in which type of the database.
 
 Available options for the database store type:
+
 - LiteDB
+
 - PostgreSQL
+
 - MySQL
 
 .. note::
