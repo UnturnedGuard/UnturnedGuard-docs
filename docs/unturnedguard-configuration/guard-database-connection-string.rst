@@ -6,22 +6,6 @@ Guard Database Connection String
 Its the most important option in the UnturnedGuard, the heart of the anticheat, and depends on your own.
 The ``GuardDatabaseConnectionString`` - means the string of the database connection, and very depends by ``GuardDatabaseStoreType`` also.
 
-.. warning::
-
-    Please, don't set the different types of the Store Type, and Connection String. Follow the examples, and recommendations down.
-
-    Bad Example:
-
-    GuardDatabaseConnectionString is {WorkingDirectory}/unturnedguard.db
-    
-    GuardDatabaseStoreType is MySQL
-
-    Good Example:
-
-    GuardDatabaseConnectionString is Server=localhost;Database=UnturnedGuard;User=root;Password=;
-
-    GuardDatabaseStoreType is MySQL
-
 
 RocketMod Connection String Examples:
 
@@ -39,6 +23,23 @@ OpenMod Connection String Examples:
 - Example for the PostgreSQL: "Host=localhost;Database=UnturnedGuard;Username=user;Password=pass"
 
 - Example for the MySQL: "Server=localhost;Database=UnturnedGuard;User=root;Password=;"
+
+
+.. warning::
+
+    Please, don't set the different types of the Store Type, and Connection String. Follow the examples, and recommendations down.
+
+    Bad Example:
+
+    GuardDatabaseConnectionString is {WorkingDirectory}/unturnedguard.db
+    
+    GuardDatabaseStoreType is MySQL
+
+    Good Example:
+
+    GuardDatabaseConnectionString is Server=localhost;Database=UnturnedGuard;User=root;Password=;
+
+    GuardDatabaseStoreType is MySQL
 
 
 RocketMod ``UnturnedGuard.RocketMod.configuration.xml``
