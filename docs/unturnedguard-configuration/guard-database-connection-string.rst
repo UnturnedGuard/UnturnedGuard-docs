@@ -1,5 +1,5 @@
-Guard Database Store Type
-=========================
+Guard Database Connection String
+================================
 
 ``GuardDatabaseConnectionString`` is the one of the plugin configuration parameter.
 
