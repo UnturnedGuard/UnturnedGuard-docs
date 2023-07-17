@@ -1,5 +1,5 @@
 Unturned Ban Sync
-=========================
+=================
 
 ``UnturnedBanSync`` is the one of the plugin configuration parameter.
 
