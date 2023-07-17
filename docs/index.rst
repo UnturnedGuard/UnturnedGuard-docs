@@ -25,7 +25,7 @@ Table of Contents:
    unturnedguard-configuration/wait-seconds-to-ban-entity
    unturnedguard-configuration/unturned-ban-system
    unturnedguard-configuration/moderation-2-integration
-   unturnedguard-configuration/unturned-ban-sync
+   unturnedguard-configuration/ban-sync
 
 
 .. toctree::
