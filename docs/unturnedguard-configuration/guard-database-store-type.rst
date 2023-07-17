@@ -14,9 +14,13 @@ Available options for the database store type:
 .. note::
 
     Database Pick Recommendations:
+
     - Select LiteDB if you need a local Database in file to only work with your single server and you need performance.
+
     - Select PostgreSQL if you want a shared database for your multiple servers.
+
     - Select MySQL if you want a shared database for your multiple servers.
+
 
 RocketMod ``UnturnedGuard.RocketMod.configuration.xml``
 
