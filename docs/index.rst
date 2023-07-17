@@ -14,18 +14,18 @@ Table of Contents:
    :caption: UnturnedGuard Configuration
    :name: sec-unturnedguard-configuration
 
-   unturnedguard/debug-mode
-   unturnedguard/discord-webhook
-   unturnedguard/guard-database-store-type
-   unturnedguard/guard-database-connection-string
-   unturnedguard/guard-database-max-retry-count
-   unturnedguard/guard-database-command-timeout
-   unturnedguard/guard-database-enable-detailed-errors
-   unturnedguard/guard-database-enable-sensitive-data-logging
-   unturnedguard/wait-seconds-to-ban-entity
-   unturnedguard/unturned-ban-system
-   unturnedguard/moderation-2-integration
-   unturnedguard/unturned-ban-sync
+   unturnedguard-configuration/debug-mode
+   unturnedguard-configuration/discord-webhook
+   unturnedguard-configuration/guard-database-store-type
+   unturnedguard-configuration/guard-database-connection-string
+   unturnedguard-configuration/guard-database-max-retry-count
+   unturnedguard-configuration/guard-database-command-timeout
+   unturnedguard-configuration/guard-database-enable-detailed-errors
+   unturnedguard-configuration/guard-database-enable-sensitive-data-logging
+   unturnedguard-configuration/wait-seconds-to-ban-entity
+   unturnedguard-configuration/unturned-ban-system
+   unturnedguard-configuration/moderation-2-integration
+   unturnedguard-configuration/unturned-ban-sync
 
 
 .. toctree::
