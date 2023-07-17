@@ -13,11 +13,13 @@ The ``GuardDatabaseConnectionString`` - means the string of the database connect
     Bad Example:
 
     GuardDatabaseConnectionString is {WorkingDirectory}/unturnedguard.db
+    
     GuardDatabaseStoreType is MySQL
 
     Good Example:
 
     GuardDatabaseConnectionString is Server=localhost;Database=UnturnedGuard;User=root;Password=;
+
     GuardDatabaseStoreType is MySQL
 
 
