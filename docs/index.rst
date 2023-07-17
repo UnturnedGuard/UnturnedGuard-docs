@@ -4,7 +4,6 @@ UnturnedGuard
 This is the documentation of the UnturnedGuard project, Demo and Gold versions are included. The ultimate AntiCheat for your Unturned game servers!
 
 If you need help or you have questions that you didn't found the answer in this docs - simply join our Discord using the inviation link:
-
 https://discord.gg/jc4FPg6H6S
 
 Table of Contents:
