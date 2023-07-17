@@ -5,7 +5,8 @@ Indeed, by default, UnturnedGuard has Moderation2 support, to enable the integra
 
 Open-up your file configuration of the plugin, and set the ``Moderation2Integration`` to true, this would look like this:
 
-RocketMod
+RocketMod 
+``UnturnedGuard.RocketMod.configuration.xml``
 
 .. code-block:: xml
 
@@ -13,6 +14,7 @@ RocketMod
 
 
 OpenMod
+``config.yaml``
 
 .. code-block:: yaml
 
