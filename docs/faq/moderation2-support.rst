@@ -1,0 +1,22 @@
+Moderation2 is Supported?
+=========================
+
+Indeed, by default, UnturnedGuard has Moderation2 support, to enable the integration you need to configure your plugin configuration, by default it's disabled, and set to false.
+
+Open-up your file configuration of the plugin, and set the ``Moderation2Integration`` to true, this would look like this:
+
+RocketMod
+
+.. code-block:: xml
+
+	<Moderation2Integration>true</Moderation2Integration>
+
+
+OpenMod
+
+.. code-block:: yaml
+
+	Moderation2Integration: true
+
+
+Done! Reload your plugin or restart the server, and don't forget to save the configuration file.
