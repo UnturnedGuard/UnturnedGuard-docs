@@ -23,9 +23,9 @@ Table of Contents:
    unturnedguard-configuration/guard-database-enable-detailed-errors
    unturnedguard-configuration/guard-database-enable-sensitive-data-logging
    unturnedguard-configuration/wait-seconds-to-ban-entity
-   unturnedguard-configuration/unturned-ban-system
+   unturnedguard-configuration/ban-system
    unturnedguard-configuration/moderation-2-integration
-   unturnedguard-configuration/ban-sync
+   unturnedguard-configuration/unturned-ban-sync
 
 
 .. toctree::
