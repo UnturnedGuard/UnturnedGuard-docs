@@ -35,3 +35,4 @@ Table of Contents:
    :name: sec-faq
 
    faq/moderation2-support
+   faq/update
