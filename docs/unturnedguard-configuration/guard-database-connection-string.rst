@@ -11,16 +11,12 @@ RocketMod Connection String Examples:
 
 - Example for the LiteDB: {WorkingDirectory}/unturnedguard.db
 
-- Example for the PostgreSQL: Host=localhost;Database=UnturnedGuard;Username=user;Password=pass
-
 - Example for the MySQL: Server=localhost;Database=UnturnedGuard;User=root;Password=;
 
 
 OpenMod Connection String Examples: 
 
 - Example for the LiteDB: "{WorkingDirectory}/unturnedguard.db"
-
-- Example for the PostgreSQL: "Host=localhost;Database=UnturnedGuard;Username=user;Password=pass"
 
 - Example for the MySQL: "Server=localhost;Database=UnturnedGuard;User=root;Password=;"
 
