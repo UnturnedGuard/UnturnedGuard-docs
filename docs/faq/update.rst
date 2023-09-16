@@ -1,22 +1,5 @@
 Does UnturnedGuard is updating automatically or how it works?
-=========================
+=============================================================
 
-Indeed, by default, UnturnedGuard has Moderation2 support, to enable the integration you need to configure your plugin configuration, by default it's disabled, and set to false.
-
-Open-up your file configuration of the plugin, and set the ``Moderation2Integration`` to true, this would look like this:
-
-RocketMod ``UnturnedGuard.RocketMod.configuration.xml``
-
-.. code-block:: xml
-
-	<Moderation2Integration>true</Moderation2Integration>
-
-
-OpenMod ``config.yaml``
-
-.. code-block:: yaml
-
-	Moderation2Integration: true
-
-
-Done! Reload your plugin or restart the server, and don't forget to save the configuration file.
+When you see a message in our UnturnedGuard Discord ``publishes``` channel that's means new version is available for the installation, we do not update this manually, the CI/CD do it for us.
+The steps are simple, just restart your server after you see the new update, this is not optionally to restart your server for that, do it only when you're able to do that, not excluding the situation if this is hot fix or very important update, we will definitly say if this is something critical, etc.
