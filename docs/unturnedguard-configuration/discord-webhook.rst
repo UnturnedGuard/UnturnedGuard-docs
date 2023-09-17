@@ -1,5 +1,5 @@
-Ban System
-==========
+DiscordWebhook and DiscordWebhookEnabled
+========================================
 
 ``DiscordWebhook`` is the one of the plugin configuration parameter, and work together with ``DiscordWebhookEnabled``.
 
