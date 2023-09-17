@@ -24,4 +24,4 @@ OpenMod ``config.yaml``
 .. code-block:: yaml
 
 	DiscordWebhook: "Your Discord Webhook URL"
-    DiscordWebhookEnabled: true
+	DiscordWebhookEnabled: true
