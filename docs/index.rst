@@ -16,6 +16,7 @@ Table of Contents:
 
    unturnedguard-configuration/debug-mode
    unturnedguard-configuration/discord-webhook
+   unturnedguard-configuration/send-ping-message-in-discord-webhook
    unturnedguard-configuration/guard-database-store-type
    unturnedguard-configuration/guard-database-connection-string
    unturnedguard-configuration/guard-database-max-retry-count
@@ -36,3 +37,4 @@ Table of Contents:
 
    faq/moderation2-support
    faq/update
+   faq/loader
