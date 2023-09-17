@@ -25,5 +25,5 @@ OpenMod ``config.yaml``
 
 .. code-block:: yaml
 
-	ReportAnomalyTPS: true,
-    TPS: 47
+	ReportAnomalyTPS: true
+	TPS: 47
