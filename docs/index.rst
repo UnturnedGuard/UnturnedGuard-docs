@@ -16,7 +16,6 @@ Table of Contents:
 
    unturnedguard-configuration/debug-mode
    unturnedguard-configuration/discord-webhook
-   unturnedguard-configuration/discord-webhook-enabled
    unturnedguard-configuration/guard-database-store-type
    unturnedguard-configuration/guard-database-connection-string
    unturnedguard-configuration/guard-database-max-retry-count
