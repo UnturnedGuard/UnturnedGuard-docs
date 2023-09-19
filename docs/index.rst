@@ -32,6 +32,26 @@ Table of Contents:
 
 .. toctree::
    :maxdepth: 1
+   :caption: Features
+   :name: sec-faq
+
+   features/antifakehiwd
+   features/antifardamage
+   features/antiitemfarinteract
+   features/antiskybuildabledeploy
+   features/antisilentaim
+   features/antiesp
+   features/antivanishspy
+   features/antibedfarclaim
+   features/antibuildablefarsalvage
+   features/antistoragefarinteract
+   features/antivehiclefarenter
+   features/unturnedhourrestriction
+   features/steamprofilerestriction
+
+
+.. toctree::
+   :maxdepth: 1
    :caption: Frequently Asked Questions
    :name: sec-faq
 
