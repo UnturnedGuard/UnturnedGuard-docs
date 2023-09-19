@@ -35,9 +35,9 @@ If you get a similar message it doesn't means that you need to run and ban this 
 
 2. Hire Moderation Team: 
    
-- Would be great if you have a specific moderation team (at least 1-2 member(s)), who can handle these processes, explain to moderation the nuances, drop them a link to the documentation of the UnturnedGuard, and let them understand the basics.
+- Would be great if you have a specific moderation team - at least 1-2 member(s), who can handle these processes, explain to moderation the nuances, drop them a link to the documentation of the UnturnedGuard, and let them understand the basics.
   
-3. Analyze: 
+1. Analyze: 
    
 - You can analyze that this player is to active as being reported by the UnturnedGuard too many times, as you probably remember their SteamIds.
   
@@ -46,6 +46,7 @@ If you get a similar message it doesn't means that you need to run and ban this 
 - Ask Players to understand that this is a cheater, perhaps you already get a lot of reports by the actual players, or you have a video that shows abnormal players behavior, they kill too many players, they're in top of the server (it also useful by having some statistics on the server).
 
 Arguments to the feature:
+
 - CancelAbnormalBehavior (true/false): Should it cancel a abnormal behavior (player actions) that UnturnedGuard detected?
 
 
