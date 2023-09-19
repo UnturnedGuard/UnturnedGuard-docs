@@ -4,16 +4,15 @@ AntiBedFarClaim
 ``AntiBedFarClaim`` is the one of the UnturnedGuard feature.
 
 Does this feature bans the players by its own?
+
 - No, this doesn't ban players by its own.
 
 Does this feature cancel actions that player do?
+
 - No, this doesn't cancel actions.
 
 Does this feature sends a reports information?
-- Yes, this feature send a report inf
-
-This feature sends report you information when:
-- Player Exceeds a abnormal distance when claiming the Bed
+- Yes, this feature send a report when player Exceeds a abnormal distance when claiming the Bed
 
 You will get a message in:
 - Console
