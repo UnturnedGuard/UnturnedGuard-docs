@@ -31,12 +31,19 @@ Message example:
 If you get a similar message it doesn't means that you need to run and ban this player immediately, this is what we recommend to do and which actions to do:
 
 1. Can be A False Positive: 
+
 - It can be a false positive, maybe player or server has a ping increase for a while or something else.
+
 2. Hire Moderation Team: 
+   
 - Would be great if you have a specific moderation team (at least 1-2 member(s)), who can handle these processes, explain to moderation the nuances, drop them a link to the documentation of the UnturnedGuard, and let them understand the basics.
-1. Analyze: 
+  
+3. Analyze: 
+   
 - You can analyze that this player is to active as being reported by the UnturnedGuard too many times, as you probably remember their SteamIds.
-4. Have a contact with players: 
+  
+4. Keep A Contact with players: 
+   
 - Ask Players to understand that this is a cheater, perhaps you already get a lot of reports by the actual players, or you have a video that shows abnormal players behavior, they kill too many players, they're in top of the server (it also useful by having some statistics on the server).
 
 Arguments to the feature:
