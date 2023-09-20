@@ -1,56 +1,55 @@
 AntiBedFarClaim
 ===============
 
-``AntiBedFarClaim`` is the one of the UnturnedGuard feature.
+**AntiBedFarClaim** is one of the features offered by UnturnedGuard.
 
-Does this feature bans the players by its own?
+Overview
+********
 
-- No, this doesn't ban players by its own.
+This feature does not directly ban players on its own or cancel any of their in-game actions. Instead, it monitors and reports abnormal behavior related to bed claiming in the game Unturned.
 
-Does this feature cancel actions that player do?
+Reporting Abnormal Behavior
+***************************
 
-- No, this doesn't cancel actions.
+**AntiBedFarClaim** is designed to report when a player exceeds an abnormal distance while claiming a bed. When such an event occurs, you will receive a notification in the following channels:
 
-Does this feature sends a reports information?
-- Yes, this feature send a report when player Exceeds a abnormal distance when claiming the Bed
-
-You will get a message in:
-- Console
-- Logs
-- Discord Webhook (if its enabled)
-
-
-Message example:
+Here is an example of the notification message:
 
 .. code-block:: console
 
 	"Player: 7656.. Exceeded abnormal bed claim distance: {distance}"
 
 
-If you get a similar message it doesn't means that you need to run and ban this player immediately, this is what we recommend to do and which actions to do:
+How to Respond
+**************
 
-1. Can be A False Positive: 
+Upon receiving a notification, it is important to assess the situation before taking any action against the player. Here are some recommended steps:
+
+1. Consider False Positives: 
 
 - It can be a false positive, maybe player or server has a ping increase for a while or something else.
 
-2. Hire Moderation Team: 
+2. Build a Moderation Team: 
    
-- Would be great if you have a specific moderation team - at least 1-2 member(s), who can handle these processes, explain to moderation the nuances, drop them a link to the documentation of the UnturnedGuard, and let them understand the basics.
+- Having a dedicated moderation team with at least 1-2 members who understand the UnturnedGuard system is highly beneficial. Share documentation about UnturnedGuard with them and ensure they grasp the basics of handling such reports.
   
-1. Analyze: 
+3. Analyze Player Activity: 
    
-- You can analyze that this player is to active as being reported by the UnturnedGuard too many times, as you probably remember their SteamIds.
+- Review the player's activity on the server. Check if they have been reported multiple times by UnturnedGuard in the past. Familiarize yourself with their SteamIDs to track their history.
   
-4. Keep A Contact with players: 
+4. Maintain Player Communication: 
    
-- Ask Players to understand that this is a cheater, perhaps you already get a lot of reports by the actual players, or you have a video that shows abnormal players behavior, they kill too many players, they're in top of the server (it also useful by having some statistics on the server).
+- Engage with the players involved. Ask them to understand the situation and provide any evidence they may have. If other players have reported suspicious behavior or if you have video evidence of abnormal behavior, take these factors into account.
 
-Arguments to the feature:
+Configuration
+*************
 
-- CancelAbnormalBehavior (true/false): Should it cancel a abnormal behavior (player actions) that UnturnedGuard detected?
+You can customize the behavior of the **AntiBedFarClaim** feature using the following argument:
+
+- ``CancelAbnormalBehavior`` (true/false): Determines whether the feature should cancel abnormal player actions detected by UnturnedGuard.
 
 
-RocketMod ``UnturnedGuard.RocketMod.configuration.xml``
+RocketMod configuration (UnturnedGuard.RocketMod.configuration.xml)
 
 .. code-block:: xml
 
@@ -66,7 +65,7 @@ RocketMod ``UnturnedGuard.RocketMod.configuration.xml``
     </Feature>
 
 
-OpenMod ``config.yaml``
+OpenMod configuration (config.yaml)
 
 .. code-block:: yaml
 
