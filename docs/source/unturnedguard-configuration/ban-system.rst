@@ -1,26 +1,37 @@
-Ban System
+BanSystem
 ==========
 
-``BanSystem`` is the one of the plugin configuration parameter.
+The **BanSystem** (ban system) configuration parameter is an essential setting offered by UnturnedGuard, designed to control how player bans are managed within the plugin.
 
-The ``BanSystem`` - means the ban system for the UnturnedGuard, how it will ban the players, in which way, the UnturnedGuard specific way with improved data collection or using Unturned default standard ban.
+Overview
+********
 
-Ban system available options:
+**BanSystem** determines the specific ban system that UnturnedGuard will employ to restrict players. It dictates the methodology and data collection approach used for player bans. You have two primary options for configuring the ban system:
 
-- UnturnedGuard to use a built-in ban system powered by UnturnedGuard itself.
+1. **UnturnedGuard** (Default Built-in BanSystem): This option enables UnturnedGuard to utilize its own integrated ban system, which comes with enhanced data collection capabilities for a more robust ban management process.
+2. **UnturnedVanilla** (Unturned Standard BanSystem): By selecting this option, UnturnedGuard will integrate with Unturned's default standard ban system, adhering to the standard ban procedures provided by Unturned itself.
 
-- UnturnedVanilla to use a Unturned Vanilla ban system integration.
+Configuration
+*************
+
+Here's how you can configure the **BanSystem** in UnturnedGuard for different mod frameworks, you have those options to enter in **BanSystem**:
+
+- **UnturnedGuard**
+- **UnturnedVanilla**
 
 
-RocketMod ``UnturnedGuard.RocketMod.configuration.xml``
+RocketMod configuration (UnturnedGuard.RocketMod.configuration.xml)
 
 .. code-block:: xml
 
 	<BanSystem>UnturnedGuard</BanSystem>
 
 
-OpenMod ``config.yaml``
+OpenMod configuration (config.yaml)
 
 .. code-block:: yaml
 
 	BanSystem: "UnturnedGuard"
+
+
+Choose the appropriate **BanSystem** option based on your requirements and the level of control you need over player bans within your Unturned server.
