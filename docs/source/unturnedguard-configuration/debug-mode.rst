@@ -6,7 +6,7 @@ The **DebugMode** (debug mode) configuration parameter is an essential setting o
 Overview
 ********
 
-**DebugMode** is specificly made for testing, it enables a additional loggin in the console and other useful information for Developers of the UnturnedGuard. Don't change this option while Developers didn't asked to.
+**DebugMode** is specificly made for testing, it enables a additional logging in the console and other useful information for Developers of the UnturnedGuard. Don't change this option while Developers didn't asked to.
 
 Configuration
 *************
