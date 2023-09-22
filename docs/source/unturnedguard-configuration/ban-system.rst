@@ -8,16 +8,13 @@ Overview
 
 **BanSystem** determines the specific ban system that UnturnedGuard will employ to restrict players. It dictates the methodology and data collection approach used for player bans. You have two primary options for configuring the ban system:
 
-1. **UnturnedGuard** (Default Built-in BanSystem): This option enables UnturnedGuard to utilize its own integrated ban system, which comes with enhanced data collection capabilities for a more robust ban management process.
-2. **UnturnedVanilla** (Unturned Standard BanSystem): By selecting this option, UnturnedGuard will integrate with Unturned's default standard ban system, adhering to the standard ban procedures provided by Unturned itself.
-
 Configuration
 *************
 
 Here's how you can configure the **BanSystem** in UnturnedGuard for different mod frameworks, you have those options to enter in **BanSystem**:
 
-- **UnturnedGuard**
-- **UnturnedVanilla**
+- **UnturnedGuard** (Default Built-in **BanSystem**): This option enables UnturnedGuard to utilize its own integrated ban system, which comes with enhanced data collection capabilities for a more robust ban management process.
+- **UnturnedVanilla** (Unturned Standard **BanSystem**): By selecting this option, UnturnedGuard will integrate with Unturned's default standard ban system, adhering to the standard ban procedures provided by Unturned itself.
 
 
 RocketMod configuration (UnturnedGuard.RocketMod.configuration.xml)
